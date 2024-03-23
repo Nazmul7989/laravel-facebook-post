@@ -49,6 +49,14 @@ FACEBOOK_ACCESS_TOKEN=
  
 8. If you want to make this token as long lived, you need to go [Access Token Debugger](https://developers.facebook.com/tools/debug/accesstoken/). Insert the access  token and click on the `Debug` button. Then it will show token information. Scroll down and you will see `Extend Access Token`. Click on this button and it will generate long lived access token.Then copy the access token and use this as `FACEBOOK_ACCESS_TOKEN`
 
+### Note:
+If you want to generate never expiry access token, you need to follow this step:
+
+- Please open an api testing tool like Postman and send a get request by using this url `https://graph.facebook.com/v19.0/{app-scoped-user-id}/accounts?access_token={long-lived-user-access-token}. If you want to generate user access token instead of page access token, just select user access token form from `User or Page` section that i have mentioned in step 5. 
+- Extend this user access token as like as page access token extend method that i have mentioned in step 8.
+- Then debug this `long-lived-user-access-token` and you will get `app-scoped-user-id` from this debug information. 
+- Finally send get request through this url `https://graph.facebook.com/v19.0/{app-scoped-user-id}/accounts?access_token={long-lived-user-access-token}`. You will get never expiry page access token from this request and use this access token as `FACEBOOK_ACCESS_TOKEN`
+
 ## Usage
 
 ### Get All posts
