@@ -134,3 +134,5 @@ If you want to generate never expiry access token, you need to follow this step:
 The MIT License (MIT). Please see [License File](LICENSE) for more information.
 
 ### See [Facebook Page Api](https://developers.facebook.com/docs/pages-api) for more details
+
+### See [Facebook Long Lived Access Token](https://developers.facebook.com/docs/facebook-login/guides/access-tokens/get-long-lived) for more details
