@@ -47,7 +47,7 @@ FACEBOOK_ACCESS_TOKEN=
 
 7. Finally click on the Generate Access Token button and it will generate temporary access token for one hour.
  
-   8. If you want to make this token as long lived, you need to go [Access Token Debugger](https://developers.facebook.com/tools/debug/accesstoken/). Insert the access  token and click on the `Debug` button. Then it will show token information. Scroll down and you will see `Extend Access Token`. Click on this button and it will generate long lived access token.Then copy the access token and use this as `FACEBOOK_ACCESS_TOKEN`
+8. If you want to make this token as long lived, you need to go [Access Token Debugger](https://developers.facebook.com/tools/debug/accesstoken/). Insert the access  token and click on the `Debug` button. Then it will show token information. Scroll down and you will see `Extend Access Token`. Click on this button and it will generate long lived access token.Then copy the access token and use this as `FACEBOOK_ACCESS_TOKEN`
 
 ## Usage
 
