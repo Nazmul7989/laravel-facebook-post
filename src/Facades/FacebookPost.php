@@ -1,10 +1,10 @@
 <?php
 
-namespace NazmulHasan\LaravelFacebookPost\Facade;
+namespace NazmulHasan\LaravelFacebookPost\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
-class LaravelFacebookPost extends Facade
+class FacebookPost extends Facade
 {
     /**
      * @method static getPost()

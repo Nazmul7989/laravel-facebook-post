@@ -1,6 +1,6 @@
 {
     "name": "nazmulhasan/laravel-facebook-post",
-    "description": "This package is created to add,update and delete post on facebook page by using facebook graph api in laravel application",
+    "description": "This package allow to create,update, delete and get posts from facebook page by in laravel application",
     "type": "library",
     "license": "MIT",
     "autoload": {
@@ -17,13 +17,16 @@
     "minimum-stability": "dev",
     "require": {
         "php": "^7.2|^7.4|^8.0|^8.1|^8.2|^8.3",
-        "illuminate/database": "^6.0|^7.0|^8.0|^9.0|^10.0"
+        "illuminate/support": "^6.0|^7.0|^8.0|^9.0|^10.0"
     },
     "extra": {
         "laravel": {
             "providers": [
                 "NazmulHasan\\LaravelFacebookPost\\FacebookPostServiceProvider"
-            ]
+            ],
+            "aliases": {
+                "FacebookPost": "NazmulHasan\\LaravelFacebookPost\\Facades\\FacebookPost"
+            }
         }
     }
 }
