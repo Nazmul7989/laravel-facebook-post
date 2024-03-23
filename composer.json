@@ -1,6 +1,6 @@
 {
     "name": "nazmulhasan/laravel-facebook-post",
-    "description": "This package allow to create,update, delete and get posts from facebook page by in laravel application",
+    "description": "This package allow to create, update, delete and get posts from facebook page in laravel application",
     "type": "library",
     "license": "MIT",
     "autoload": {
