@@ -13,7 +13,9 @@
         "fabook-api",
         "facebook-page-post",
         "facebook-page-feed",
-        "facebook-page-api"
+        "facebook-page-api",
+        "fb-page-feed",
+        "facebook-page-poster"
     ],
     "autoload": {
         "psr-4": {

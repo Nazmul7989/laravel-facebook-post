@@ -43,7 +43,7 @@ $response = FacebookPost::getPost();
 ``` 
 use NazmulHasan\LaravelFacebookPost\Facades\FacebookPost;
 
-$message = 'Message from laravel application'
+$message = 'Message from laravel application';
 
 $response = FacebookPost::storePost($message);
 ```
@@ -55,13 +55,13 @@ use NazmulHasan\LaravelFacebookPost\Facades\FacebookPost;
 $message = 'Message from laravel application'; //message is optional
 $url = 'Your image url';
 
-$response = FacebookPost::storePostWithPhoto($url, $message)
+$response = FacebookPost::storePostWithPhoto($url, $message);
 ```
 ### Update  post
 ``` 
 use NazmulHasan\LaravelFacebookPost\Facades\FacebookPost;
 
-$message = 'Message from laravel application'
+$message = 'Message from laravel application';
 $post_id = 'Your post id';
 
 $response = FacebookPost::updatePost($post_id, $message);
