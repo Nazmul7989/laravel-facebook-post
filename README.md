@@ -1,6 +1,11 @@
 # Laravel Facebook Page Post
 This package allow to create, update, delete and get posts from facebook page in laravel application
 
+## Requirements
+
+- PHP >=7.2
+- Laravel >= 6
+
 ## Installation
 You can install the package via composer:
 
