@@ -3,6 +3,18 @@
     "description": "This package allow to create, update, delete and get posts from facebook page in laravel application",
     "type": "library",
     "license": "MIT",
+    "keywords": [
+        "laravel-facebook-post",
+        "laravel-facebook-page-post",
+        "laravel-facebook-page-api",
+        "laravel-facebook-automatic-post",
+        "graph-api",
+        "facebook-graph-api",
+        "fabook-api",
+        "facebook-page-post",
+        "facebook-page-feed",
+        "facebook-page-api"
+    ],
     "autoload": {
         "psr-4": {
             "NazmulHasan\\LaravelFacebookPost\\": "src/"
