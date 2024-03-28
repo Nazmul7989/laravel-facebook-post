@@ -128,6 +128,7 @@ If you want to generate never expiry access token, you need to follow this step:
 - Then debug this `long-lived-user-access-token` and you will get `app-scoped-user-id` from this debug information.
 - Finally send get request to this url `https://graph.facebook.com/v19.0/{app-scoped-user-id}/accounts?access_token={long-lived-user-access-token}`. Now You will get never expiry page access token from this request and use this access token as `FACEBOOK_ACCESS_TOKEN`
 
+If you face any issue or bug, please create an issue by using this link [https://github.com/Nazmul7989/laravel-facebook-post/issues](https://github.com/Nazmul7989/laravel-facebook-post/issues).
 
 ## License
 

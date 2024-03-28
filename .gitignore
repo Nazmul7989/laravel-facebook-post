@@ -1,0 +1,12 @@
+.phpintel
+.idea
+.vscode
+.env
+*.log
+*.iml
+*.composerLog
+*.zip
+vendor/
+logs/
+works
+

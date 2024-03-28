@@ -17,6 +17,7 @@
         "fb-page-feed",
         "facebook-page-poster"
     ],
+    "homepage": "https://github.com/Nazmul7989/laravel-facebook-post",
     "autoload": {
         "psr-4": {
             "NazmulHasan\\LaravelFacebookPost\\": "src/"
@@ -25,13 +26,18 @@
     "authors": [
         {
             "name": "Md Nazmul Hasan",
-            "email": "nazmul.ns7989@gmail.com"
+            "email": "nazmul.ns7989@gmail.com",
+            "homepage": "https://github.com/Nazmul7989",
+            "role": "Developer, Maintainer"
         }
     ],
+    "support": {
+        "email": "nazmul.ns7989@gmail.com"
+    },
     "minimum-stability": "dev",
     "require": {
         "php": "^7.2|^7.4|^8.0|^8.1|^8.2|^8.3",
-        "illuminate/support": "^6.0|^7.0|^8.0|^9.0|^10.0"
+        "illuminate/support": "^6.0|^7.0|^8.0|^9.0|^10.0|^11.0"
     },
     "extra": {
         "laravel": {
